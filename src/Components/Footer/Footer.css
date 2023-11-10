@@ -1,0 +1,91 @@
+.Footer{
+    
+    background-color: #000;
+    color:  white;
+}
+.Footer_footer{
+    display: grid;
+    grid-template-columns: 900px 600px;
+    justify-content: space-between;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    
+    
+
+    
+}
+.Footer_Links{
+    display: grid;
+    list-style: none;
+    grid-template-columns: 350px 250px 300px;
+    
+    
+}
+ .Title{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;;
+    font-style: initial;
+    color:  white;
+    padding: 30px;
+}
+.Footer_Link{
+    display: list-item;
+    list-style: none;
+    
+   
+}
+.Footer_Link li{
+    margin-top: 30px;
+}
+.Link{
+    text-decoration: none;
+    color: white;
+   
+}
+.Footer_right{
+    width: 600px;
+    border-left: 2px solid #6E6E6E;
+}
+.Socials_links{
+    display: grid;
+    grid-template-columns: 130px 130px 130px 130px ;  
+    padding-left: 60px;
+}
+.Link_social{
+    list-style: none;
+    
+}
+
+.Title_right{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: initial;
+    color:  white;
+    padding: 30px;
+    
+}
+
+.Title_right hr{
+    background-color: brown;
+}
+.logo_viettravle{
+    padding: 30px;
+}
+.nd{
+    display: flex;
+    
+    text-decoration: none;
+    color: white;
+}
+.move_button{
+    width: 100px;
+    margin-left: 10px;
+    animation: movebutton 5s;
+    animation-direction: alternate;
+
+}
+@keyframes movebutton{
+    0% { left: 0px ;}
+    100% { left: 100px ;}
+}
+
+

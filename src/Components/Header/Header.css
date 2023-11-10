@@ -1,0 +1,26 @@
+.Header{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(130, 129, 129) ;
+    display: grid;
+    grid-template-columns: 15% 85% ;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.logo{
+    
+    text-align: left;
+   
+}
+.title{
+    font-family: 'Roboto Mono', monospace;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+    color:  white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    text-decoration: none;
+}

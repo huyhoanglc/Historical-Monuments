@@ -1,0 +1,15 @@
+
+/* css for navbar */
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    padding-left: 40px !important;
+    
+    
+}
+.navbar-nav{
+    padding-left: 490px !important;
+}
+/* css for button search */
+.btn{
+    background-color: aquamarine !important;
+}

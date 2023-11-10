@@ -1,0 +1,57 @@
+.left{
+    border: 3px solid rgb(112, 108, 108) ;
+    margin-top: 37px;
+    margin-bottom: 29x;
+    background-color: rgb(115, 115, 115);
+    
+}
+.map{
+    padding-bottom: 20px;
+   
+}
+.data_dad{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;;
+    font-style: initial;
+    
+    display: grid;
+    grid-template-columns: 300px 330px ;
+    grid-template-rows: 50px 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+    
+    padding-left: 50px;
+    
+}
+.data{
+    padding-right: 80px;
+    
+}
+.form{
+    border: 3px solid rgb(112, 108, 108);
+    padding-bottom: 34px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 37px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.mb-3{
+    padding-bottom: 15px;
+}
+.mt-3{
+    margin-left: 200px;
+   
+}
+/* css for navbar */
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    padding-left: 40px !important;
+    
+}
+.navbar-nav{
+    padding-left: 490px !important;
+}
+/* css for button search */
+.btn{
+    background-color: aquamarine !important;
+}

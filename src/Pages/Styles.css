@@ -1,0 +1,10 @@
+.web{
+    background-color: beige;
+}
+.content{
+    width: 1300px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center  ;
+}
