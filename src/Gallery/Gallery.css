@@ -25,7 +25,7 @@
     cursor: pointer;
     margin-bottom: 12px;
 }
-@media (max-width:991px){
+@media (max-width:1500px){
   .Gallery .gallerycontainer{
         -webkit-column-count: 2;
         -moz-column-count: 2;
