@@ -1,0 +1,148 @@
+.Linh body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  .Linh  a {
+    color: #3b4ef8;
+    text-decoration: none;
+  }
+  
+  .Linh.Linh  a:hover {
+    color: #6c7afa;
+    text-decoration: none;
+  }
+  
+  
+  .Linh  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .Linh .section-bg {
+    background-color: #f6f8fb;
+  }
+  
+  .Linh .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .Linh .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2d405f;
+  }
+  
+  .Linh .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #aabbd7;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  
+  .Linh .section-title p {
+    margin-bottom: 0;
+  }
+  .Linh .features .content+.content {
+    margin-top: 100px;
+  }
+  
+  .Linh  .features .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  
+  .Linh .features .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Linh .features .content ul li {
+    padding-bottom: 10px;
+  }
+  
+  .Linh .features .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #3b4ef8;
+  }
+  
+  .Linh .features .content p:last-child {
+    margin-bottom: 0;
+  }
+  .Linh .heroLinh {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../../Location/West/img/slide.jpg") top center;
+    background-size: cover;
+    position: relative;
+    padding: 120px 0;
+    z-index: 3;
+  }
+  
+  @media (min-width: 1034px) {
+    .heroLinh:after {
+      
+      content: "";
+      width: 40%;
+      background: var(--color-secondary);
+      top: 0;
+      bottom: 0;
+    }
+  }
+  
+  .Linh  .heroLinh:before {
+    position: absolute;
+    content: "";
+    background: rgba(27, 47, 69, 0.6);
+    inset: 0;
+  }
+  
+  @media (max-width: 1034px) {
+    .heroLinh:before {
+      background: rgba(27, 47, 69, 0.7);
+    }
+  }
+  
+  .Linh .heroLinh .container {
+    z-index: 1;
+  }
+  
+  @media (min-width: 1365px) {
+    .heroLinh {
+      background-attachment: fixed;
+    }
+  }
+  
+  .Linh .heroLinh h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    font-family: var(--font-secondary);
+  }
+  
+  .Linh .heroLinh blockquote {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: var(--font-default);
+    border-left: 2px solid var(--color-primary);
+    margin: 40px 0;
+  }
+  
+  @media (max-width: 640px) {
+    .heroLinh h2 {
+      font-size: 36px;
+      line-height: 1;
+    }
+  }

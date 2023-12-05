@@ -1,0 +1,176 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#heromacchupicchu {
+    width: 100%;
+    height: 100vh;
+    background: url("../Macchupicchu/hero-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+  #heromacchupicchu:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #heromacchupicchu .container {
+    position: relative;
+    padding-top: 74px;
+    text-align: center;
+  }
+  #heromacchupicchu h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  #heromacchupicchu h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  @media (min-width: 1024px) {
+    #heromacchupicchu {
+      background-attachment: fixed;
+    }
+  }
+  
+  /* @media (max-width: 768px) {
+    #heromacchupicchu {
+      height: auto;
+    }
+  
+    #heromacchupicchu h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #heromacchupicchu h2 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  } */
+/* section */
+.main-mc {
+    padding: 60px 0;
+    overflow: hidden;
+  }  
+  
+/* Main */
+.main-mc .container img{
+    height: 320px;
+}
+.main-mc .content h3 {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-mc .content p {
+  margin-bottom: 20px;
+}
+
+#bg-img-mc {
+    width: 50%;
+    height: 60vh;
+    background: url("../Macchupicchu/macchu1.jpg") top center;
+    background-size: 50% 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+  #bg-img-mc:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #bg-img-mc .container {
+    position: relative;
+    padding-top: 74px;
+    text-align: center;
+  }
+  @media (min-width: 1024px) {
+    #bg-img-mc {
+      background-attachment: fixed;      
+    }
+  }
+  @media (max-width: 991px) {
+    #bg-img-mc {
+      width: 100%;
+      background-size: 100% 100%;         
+    }
+    .main-mc .container img{
+      width: 100%;
+  }
+  }
+
+  /* tourism
+------------------------------*/
+.tourism h3 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.tourism img {
+  border: 6px solid rgb(255, 250, 242);
+  box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 1);
+}
+ 
+.tourism .image-stack-mc {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.tourism .image-stack-mc .stack-back-mc {
+  grid-column: 6/-3 ;
+  grid-row: 1;
+  width: 150%;
+  z-index: 1;
+}
+
+.tourism .image-stack-mc .stack-front-mc {
+  grid-row: 1;
+  grid-column: 2/span 7;
+  margin-top: 20%;
+  width: 100%;
+  z-index: 2;
+}
+ .main .ttl{
+  text-align: center;
+ }
+ #main-mc .section-title {
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+#main-mc .section-title h2:before,
+#main-mc .section-title h2:after {
+content: "";
+width: 50px;
+height: 2px;
+background: rgba(0,0,0,0.5);
+display: inline-block;
+}
+
+#main-mc .section-title h2:before {
+margin: 0 15px 10px 0;
+}
+
+#main-mc .section-title h2:after {
+margin: 0 0 10px 15px;
+}
+#main-mc .section-title p {
+  margin-bottom: 0;
+  font-weight: bold;
+}

@@ -1,0 +1,107 @@
+/* Video */
+.Wonder .text-syd h1{
+  padding-top: 300px;
+  font-weight: bold;    
+  text-align: end;
+  color: white;
+  margin-bottom: 100px;
+}
+.Wonder .Huy .col-md-5{
+  padding-top: 60px;
+}
+.Wonder #heo h2{
+  color: white;
+}
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+.Wonder section {
+    padding: 60px 0;
+  }
+  
+  .Wonder .Huy .section-bg {
+    background-color: #f3f8fa;
+  }
+  
+  .Wonder .Huy .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .Wonder .Huy .section-title h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .Wonder .Huy .section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .Wonder .Huy .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #68A4C4;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .Wonder .Huy .section-title p {
+    margin-bottom: 0;
+  }
+  
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.Wonder .features .row+.row {
+    margin-top: 100px;
+  }
+  .Wonder .features img{
+    padding-top: 70px;
+  }
+  
+  .Wonder .features h3 {
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+  .Wonder  .features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Wonder .features ul li {
+    padding-bottom: 10px;
+  }
+  
+  .Wonder  .features ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #68A4C4;
+  }
+  
+  .Wonder .features p:last-child {
+    margin-bottom: 0;
+  }
+ /* List img */
+ .Wonder .List_img{
+  margin-top: 0px;
+ }
+ .Wonder .listimage{
+  width: 200px;
+  height: 150px;
+ }
+  

@@ -1,0 +1,53 @@
+.Header-nav .dropdown-menu li {
+    position: relative;
+}
+.Header-nav  .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: -143%;
+    top: -7px;
+    width: 225px;
+}
+
+.Header-nav .dropdown-menu >  li:hover > .dropdown-submenu {
+display: block;
+}
+.Header-nav .navbar-scrolled {
+  background-color: black;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 991px) {
+  .Header-nav .navbar {
+    background-color: black ;      
+  }
+  
+  .Header-nav  .dropdown-submenu {
+    display: none;
+    position: absolute;      
+    top: -7px;
+    width: 100%;
+    padding-left: 11px;
+}
+.Header-nav .dropdown{
+  margin-left: -14px;
+}
+}
+.Header-nav .button-navbar .btn {
+  border-color:transparent !important;
+  
+}
+.Header-nav .button-navbar .btn:hover{
+  background: transparent !important;
+  color: yellow !important;
+}
+.Header-nav .button-navbar a:hover{
+  color: rgb(252, 252, 2) !important;
+}
+.Header-nav .btn-outline-light {
+  --bs-btn-active-color: white !important;  
+  --bs-btn-active-bg: transparent !important  ;
+}
+.Header-nav .nav-link{
+  color: white !important;
+}

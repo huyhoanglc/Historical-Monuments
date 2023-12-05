@@ -1,0 +1,319 @@
+
+
+
+.Castle-container{
+    
+    
+    background-color: #f4efe4;
+}
+
+.Castle-container .ten{
+    margin-left: 10%;
+    margin-top: 5%;
+    color: rgb(116, 23, 23);
+}
+.Castle-container .phatgiao{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.Castle-container .phatgiao .circle{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    transition: 2s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Castle-container .phatgiao .circle:hover{
+    z-index: 1;
+}
+.Castle-container .phatgiao .circle.circle1{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    clip-path: circle(100px at 25% center);
+}
+.Castle-container .phatgiao .circle.circle2{
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    clip-path: circle(100px at center);
+}
+.Castle-container .phatgiao .circle.circle3{
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    clip-path: circle(100px at 75% center);
+}
+.Castle-container .phatgiao .circle:active{
+    clip-path: circle(800px at center);
+}
+.Castle-container .phatgiao .circle .content{
+    max-width: 800px;
+    box-sizing: border-box;
+    padding: 40px;
+    font-family: consolas;
+    background: rgba(0, 0, 0,.8);
+    opacity: 0;
+    transition: 1s;
+}
+.Castle-container .phatgiao .circle:active .content{
+    opacity: 1;
+    transition-delay: 1s;
+}
+.Castle-container .phatgiao .circle .content h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 4em;
+}
+.Castle-container.phatgiao .circle .content p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+
+
+
+/* gioithieutongquan */
+.Castle-container .Castle .Castle1{
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    
+   
+}
+
+.Castle-container .Castle1 .tieude1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Castle-container .Castle1 .noidung1{
+    margin-top: 30px;
+    margin-right: 50px;
+    
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Castle-container .Castle1 .noidung1 .vanban2{
+    padding-top: 30px;
+    font-size: 20px;
+    
+    text-align: justify;
+
+}
+
+.Castle-container .Castle1 .tieude1 .hinh1{
+    width: 105%;
+    padding-top: 10px;
+   
+}
+ 
+
+.Castle-container .Castle2 .noidung2 .vanban3{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* thiet ke xay dung */
+.thietkexaydung{
+    margin-top: 80px;
+}
+
+.thietkexaydung .noidung3 .vanban4{
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+    font-size: larger;
+}
+.thietkexaydung .tieude2 .tentieude{
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 70%;
+    color: #ad9a6d;
+    border-bottom: 2px solid black;
+}
+.thietkexaydung .tieude2 .tentieude1{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 87%;
+    margin-top: 40px;
+    color: #ad9a6d;
+}
+
+.thietkexaydung .noidung4{
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    margin-top: 40px;
+}
+.thietkexaydung .noidung4 .img-fluid{
+    width: 80%;
+    padding-left: 20%;
+    padding-bottom: 20px;
+}
+ .thietkexaydung .noidung4 .vanban5{
+    text-align: justify;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: larger;
+    padding-top: 100px;
+ }
+
+
+ .thietkexaydung .noidung5{
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    margin-top: 40px;
+}
+.thietkexaydung .noidung5 .hinh3{
+    width: 100%;
+    padding-right: 18%;
+   
+}
+ .thietkexaydung .noidung5 .vanban6{
+    text-align: justify;
+    padding-left: 8%;
+    padding-top: 10px;
+    padding-right: 8%;
+    font-size: larger;
+ }
+
+ .thietkexaydung .tieude3 .tentieude2{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 73%;
+    padding-top: 5%;
+    color: #ad9a6d;
+ }
+ .thietkexaydung .noidung6{
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    margin-top: 60px;
+ }
+
+ .thietkexaydung .noidung6 .hinh4{
+    width:100%;
+    padding-left: 18%;
+    
+
+ }
+.thietkexaydung .noidung6 .vanban7{
+    text-align: justify;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: larger;
+}
+
+.thietkexaydung .tieude4 .tentieude3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 83%;
+    padding-top: 1%;
+    color: #ad9a6d;
+}
+.thietkexaydung .noidung7{
+    display: grid;
+    grid-template-columns: 70% 30% ;
+    margin-top: 40px;
+}
+.thietkexaydung .noidung7 .vanban8{
+    text-align: justify;
+    padding-left: 8%;
+    padding-top: 10px;
+    padding-right: 8%;
+    font-size: larger;
+}
+.thietkexaydung .noidung7 .hinh5{
+    width: 82%;
+}
+
+.lichsuhinhthanh .tieude5 .tentieude{
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 57%;
+    border-bottom: 2px solid black;
+    margin-top: 70px;
+    color: #ad9a6d;
+}
+.lichsuhinhthanh .tieude5 .tentieude3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 49%;
+    padding-top: 30px;
+    color: #ad9a6d;
+}
+
+.lichsuhinhthanh .tieude5 .vanban9{
+    text-align: justify;
+    padding: 30px 50px 0px 50px;
+    font-size: larger;
+}
+.lichsuhinhthanh .noidung8{
+    display: flex;
+    
+}
+ .lichsuhinhthanh .noidung8 .hinh5{
+    width: 200%;
+    padding-left: 50px;
+    flex: 30%;
+    
+    
+ }
+ .lichsuhinhthanh .noidung8 .vanban10to{
+    text-align: justify;
+    font-size: 20px;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+ }
+ .lichsuhinhthanh .noidung8 .vanban10{
+   flex: 50%;
+   padding-top: 15%;
+    padding-right: 10%;
+    font-size: 30px;
+    font-family: Georgia, serif;
+ }
+ .lichsuhinhthanh .noidung8 .vanban10nho{
+    color: brown;
+    font-size: 20px;
+    font-family: cursive;
+    
+ }
+
+ .container .row .col-6 .hinh6 img{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
+.container .dulichvadacdiem .tieude6 .tentieude{
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 90%;
+    border-bottom: 2px solid black;
+    margin-top: 70px;
+    color: #ad9a6d;
+}
+.container .dulichvadacdiem .tieude6 .tentieude3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 87%;
+    padding-top: 30px;
+    color: #ad9a6d;
+}
+.container .row .col-3 .tieude{
+    text-align: justify;
+    color: black;
+    padding-right: 50%;
+    font-size: 50px;
+}

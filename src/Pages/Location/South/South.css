@@ -1,0 +1,186 @@
+.bg{
+  background-color: rgb(48, 47, 47);
+}
+/* hero-one */
+.south-hero-one {
+    --default-color: #fafafa;
+    --default-color-rgb: 255, 255, 255;
+    --background-color: #000000;
+    --background-color-rgb: 0, 0, 0;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 160px 0 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .south-hero-one img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .south-hero-one:before {
+    content: "";
+    background: rgba(var(--background-color-rgb), 0.5);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+  
+  .south-hero-one .container {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .south-hero-one h2 {
+    color: rgba(var(--default-color-rgb), 0.8);
+    margin: 0;
+    font-size: 44px;
+    font-weight: 700;
+  }
+  
+  .south-hero-one p {
+    color: rgba(var(--default-color-rgb), 0.8);
+    margin: 5px 0 0 0;
+    font-size: 20px;
+  }
+  
+  
+  .south-hero-one .btn{
+    
+    color: rgba(var(--default-color-rgb), 0.8) !important;
+    background-color: rgba(0,0,0,0.8) !important;
+    border: none !important;
+    margin: 10px 0px 30px 80px ;
+}
+/* hero-two */
+.south-hero-two {
+  --default-color: #fdfdfd;
+  --default-color-rgb: 255, 255, 255;
+  --background-color: #000000;
+  --background-color-rgb: 0, 0, 0;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 160px 0 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.south-hero-two img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.south-hero-two:before {
+  content: "";
+  background: rgba(var(--background-color-rgb), 0.5);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.south-hero-two .container {
+  position: relative;
+  z-index: 3;
+}
+
+.south-hero-two h2 {
+  color: rgba(var(--default-color-rgb), 0.8);
+  margin: 0;
+  font-size: 44px;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 70px;
+}
+
+.south-hero-two p {
+  color: rgba(var(--default-color-rgb), 0.8);
+  margin: 5px 0 0 0px;
+  font-size: 20px;
+  text-align: right;
+}
+.south-hero-two .btn{  
+  color: rgba(var(--default-color-rgb), 0.8) !important;
+  background-color: rgba(0,0,0,0.8) !important;
+  border: none !important;
+  margin-top: 10px;
+  margin-right: 70px;
+  }
+  /* hero-three */
+  .south-hero-three {
+    --default-color: #fdfdfd;
+    --default-color-rgb: 255, 255, 255;
+    --background-color: #000000;
+    --background-color-rgb: 0, 0, 0;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 160px 0 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .south-hero-three img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .south-hero-three:before {
+    content: "";
+    background: rgba(var(--background-color-rgb), 0.5);
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+  }
+  
+  .south-hero-three .container {
+    position: relative;
+    z-index: 3;
+  }
+  
+  .south-hero-three h2 {
+    color: rgba(var(--default-color-rgb), 0.8);
+    margin: 0;
+    font-size: 44px;
+    font-weight: 700;
+  }
+  
+  .south-hero-three p {
+    color: rgba(var(--default-color-rgb), 0.8);
+    margin: 5px 0 0 0;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .south-hero-three .btn{    
+    color: rgba(var(--default-color-rgb), 0.8) !important;
+    background-color: rgba(0,0,0,0.8) !important;
+    border: none !important;
+    margin-top: 10px;
+    margin-left: 140px;
+  }
+  

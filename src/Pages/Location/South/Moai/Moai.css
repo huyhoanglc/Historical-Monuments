@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.main-moai .carousel-item{
+    height: 100vh;
+    min-width: 500px;
+}
+.main-moai .bg-1{
+    background-image: url("./hero-one-bg.jpg");
+}
+.main-moai .bg-2{
+    background-image: url("./hero-two-bg.jpg");
+}
+.main-moai .bg-3{
+    background-image: url("./hero-three-bg.jpg");
+}
+.main-moai .bg-1,.main-moai .bg-2{
+    background-size: cover;
+    position: relative;
+}
+.main-moai .bg-3{
+    background-size: 100% 100%;
+}
+.main-moai .bg-1:before,.main-moai .bg-2:before,.main-moai .bg-3::before{ 
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+}
+.main-moai .carousel-caption{
+    bottom: 270px !important;
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.main-moai .carousel-caption p{
+    font-size: 20px;
+}
+.main-moai .section-title {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 50px;
+  }
+.main-moai .section-title h2:before,
+.main-moai .section-title h2:after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+}
+
+.main-moai .section-title h2:before {
+  margin: 0 15px 10px 0;
+}
+
+.main-moai .section-title h2:after {
+  margin: 0 0 10px 15px;
+}
+.main-moai .section-title p {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.main-moai .post-entry-2 {
+    margin-bottom: 20px;
+  }
+  
+.main-moai  .post-entry-2 .post-meta {
+    font-size: 11px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 600;   
+    margin-bottom: 10px;
+  }
+  
+ .main-moai .post-entry-2 .thumbnail {
+    flex: 0 0 52%;
+  }
+  
+  @media (max-width: 960px) {
+    .main-moai .post-entry-2 .thumbnail {
+      flex: 0 0 100%;
+      margin-bottom: 20px;
+    }
+  } 
+  .main-moai .post-entry-2.half .thumbnail {
+    flex: 0 0 50%;
+  }
+  
+  @media (max-width: 768px) {
+    .main-moai .post-entry-2.half .thumbnail {
+      flex: 0 0 100%;
+      margin-bottom: 20px;
+    }
+  }
+ 
+  

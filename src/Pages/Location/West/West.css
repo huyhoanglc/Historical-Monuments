@@ -1,0 +1,177 @@
+.West #main{
+  margin-bottom: 30px;
+}
+.West .heroLinh .container{
+  text-align: center;
+}
+.West .heroLinh {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../../Location/West/img/slide.jpg") top center;
+    background-size: cover;
+    position: relative;
+    padding: 120px 0;
+    z-index: 3;
+  }
+  
+  @media (min-width: 1034px) {
+    .heroLinh:after {
+      
+      content: "";
+      width: 40%;
+      background: var(--color-secondary);
+      top: 0;
+      bottom: 0;
+    }
+  }
+  
+  .West .heroLinh:before {
+    position: absolute;
+    content: "";
+    background: rgba(27, 47, 69, 0.6);
+    inset: 0;
+  }
+  
+  @media (max-width: 1034px) {
+    .heroLinh:before {
+      background: rgba(27, 47, 69, 0.7);
+    }
+  }
+  
+  .West .heroLinh .container {
+    z-index: 1;
+  }
+  
+  @media (min-width: 1365px) {
+    .heroLinh {
+      background-attachment: fixed;
+    }
+  }
+  
+  .West .heroLinh h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    font-family: var(--font-secondary);
+  }
+  
+  .West  .heroLinh blockquote {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: var(--font-default);
+    border-left: 2px solid var(--color-primary);
+    margin: 40px 0;
+  }
+  
+  @media (max-width: 640px) {
+    .heroLinh h2 {
+      font-size: 36px;
+      line-height: 1;
+    }
+  
+  }
+  
+  .West  .section-header {
+    text-align: center;
+    padding-bottom: 2c0px;
+    margin-top: 20px;
+  }
+  
+  .West .section-header h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .West  .section-header h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: var(--color-primary);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .West .section-header p {
+    margin-bottom: 0;
+  }
+
+  .West  .recent-posts .post-box {
+    transition: 0.3s;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .West .recent-posts .post-box .post-img {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .West .recent-posts .post-box .post-img img {
+    transition: 0.5s;
+  }
+  
+  .West  .recent-posts .post-box .meta {
+    margin-top: 15px;
+  }
+  
+  .West .recent-posts .post-box .meta .post-date {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-primary);
+  }
+  
+  .West .recent-posts .post-box .meta .post-author {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-secondary);
+  }
+  
+  .West  .recent-posts .post-box .post-title {
+    font-size: 18px;
+    color: var(--color-secondary);
+    font-weight: 700;
+    margin: 15px 0 0 0;
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  .West  .recent-posts .post-box p {
+    margin: 15px 0 0 0;
+    color: rgba(27, 47, 69, 0.7);
+  }
+  
+  .West .recent-posts .post-box .readmore {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    line-height: 1;
+    transition: 0.3s;
+    margin-top: 15px;
+  }
+  
+  .West  .recent-posts .post-box .readmore i {
+    line-height: 0;
+    margin-left: 4px;
+    font-size: 18px;
+  }
+  
+  .West .recent-posts .post-box:hover .post-title {
+    color: var(--color-primary);
+  }
+  
+  .West .recent-posts .post-box:hover .post-img img {
+    transform: scale(1.1);
+  }

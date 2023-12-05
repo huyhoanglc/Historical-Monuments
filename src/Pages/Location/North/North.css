@@ -1,0 +1,304 @@
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.north-container #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../../../Pages/Location/North/img/nuthantudo1.jpg") top right;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .north-container #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .north-container #hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  
+  .north-container #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-family: "Satisfy", serif;
+    color: #fff;
+  }
+  
+  .north-container #hero h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .north-container #hero .btn-scroll {
+    transition: 0.4s;
+    color: rgba(255, 255, 255, 0.6);
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
+  }
+  
+  .north-container #hero .btn-scroll i {
+    font-size: 48px;
+  }
+  
+  .north-container  #hero .btn-scroll:hover {
+    color: #ffb727;
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #hero h1 {
+      font-size: 40px;
+    }
+  
+    #hero h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(5px);
+    }
+  
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* North Container */
+  .north-container {
+    background-color: #f4efe4;
+  }
+  
+  .north-container .banner .banner1 {
+    width: 100%;
+    
+  }
+  
+  .north-container .banner .textbanner1
+  {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #e1e1da;
+    font-size: 30px;
+  }
+  
+  .north-container .banner .textbanner {
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    
+  }
+  
+  
+  
+   .north-container .tieude1 p {
+    color: #ad9a6d;
+    font-size: 50px;
+    padding-right: 60%;
+    padding-top: 30px;
+  }
+  
+    .north-container .north {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .north-container .north-1 {
+    border-bottom: 3px solid #ccc;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .north-container  .north-1 h2 {
+    margin-top: 30px;
+    color: #ad9a6d;
+    font-size: 24px;
+  }
+  
+  .north-container .north-1 p {
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+  
+   .north-container .north .north-1 .image1 img {
+    width: 100%;
+  }
+  
+  .north-container .tieude1 h1 {
+    font-size: 30px;
+    padding-right: 1000px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  
+  /*--------------------------------------------------------------
+    # Contact
+    --------------------------------------------------------------*/
+    .north-container  .contact .info-item {
+      text-align: center;
+    }
+    
+    .north-container .contact .info-item i {
+      font-size: 48px;
+      display: inline-block;
+      margin-bottom: 10px;
+      color: var(--color-primary);
+    }
+    
+    .north-container .contact .info-item address,
+    .north-container  .contact .info-item p {
+      margin-bottom: 0;
+    }
+    
+    .north-container  .contact .info-item h3 {
+      font-size: 16px;
+      margin-bottom: 15px;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: var(--color-primary);
+    }
+    
+    .north-container  .contact .info-item a:hover {
+      color: var(--color-primary);
+    }
+    
+    @media (min-width: 768px) {
+      .contact .info-item-borders {
+        border-left: 1px solid rgba(var(--color-secondary-rgb), 0.2);
+        border-right: 1px solid rgba(var(--color-secondary-rgb), 0.2);
+      }
+    }
+    
+    .north-container .contact .php-email-form {
+      box-shadow: 0 0 30px rgba(var(--color-black-rgb), 0.1);
+      padding: 30px;
+      background: var(--color-white);
+    }
+    
+    @media (max-width: 640px) {
+      .contact .php-email-form {
+        padding: 20px;
+      }
+    }
+    
+    .north-container  .contact .php-email-form .error-message {
+      display: none;
+      color: var(--color-white);
+      background: var(--color-red);
+      text-align: left;
+      padding: 15px;
+      font-weight: 600;
+    }
+    
+    .north-container  .contact .php-email-form .error-message br+br {
+      margin-top: 25px;
+    }
+    
+    .north-container .contact .php-email-form .sent-message {
+      display: none;
+      color: var(--color-white);
+      background: var(--color-green);
+      text-align: center;
+      padding: 15px;
+      font-weight: 600;
+    }
+    
+    .north-container .contact .php-email-form .loading {
+      display: none;
+      background: var(--color-white);
+      text-align: center;
+      padding: 15px;
+    }
+    
+    .north-container  .contact .php-email-form .loading:before {
+      content: "";
+      display: inline-block;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      margin: 0 10px -6px 0;
+      border: 3px solid var(--color-green);
+      border-top-color: var(--color-white);
+      animation: animate-loading 1s linear infinite;
+    }
+    
+    .north-container  .contact .php-email-form .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .north-container  .contact .php-email-form input,
+    .north-container  .contact .php-email-form textarea {
+      padding: 10px 14px;
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 15px;
+    }
+    
+    .north-container  .contact .php-email-form input::focus,
+    .north-container .contact .php-email-form textarea::focus {
+      background-color: var(--color-primary);
+    }
+    
+    .north-container  .contact .php-email-form button[type=submit] {
+      background: var(--color-primary);
+      border: 0;
+      padding: 10px 30px;
+      color: #fff;
+      transition: 0.4s;
+      cursor: pointer;
+    }
+    
+    .north-container  .contact .php-email-form button[type=submit]:hover {
+      background: rgba(var(--color-primary-rgb), 0.8);
+    }
+    
+    @keyframes animate-loading {
+      0% {
+        transform: rotate(0deg);
+      }
+    
+      100% {
+        transform: rotate(360deg);
+      }
+    }

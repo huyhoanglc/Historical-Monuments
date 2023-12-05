@@ -1,0 +1,79 @@
+
+.East-container {
+    background-color: #f4efe4;
+  }
+  
+  .East-container .banner .banner1 {
+    width: 100%;
+    
+  }
+  
+  .East-container .banner .textbanner1
+  {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-shadow: 
+      -1.5px -1.5px 0 #000,  
+      1.5px -1.5px 0 #000,
+      -1.5px 1.5px 0 #000,
+      1.5px 1.5px 0 #000;
+  }
+  
+  .East-container .banner .textbanner {
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    
+  }
+  
+  
+  
+  .East-container .tieude1 p {
+    color: #ad9a6d;
+    font-size: 50px;
+    padding-right: 60%;
+    padding-top: 30px;
+  }
+  
+  .East-container .East {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .East-1 {
+    border-bottom: 3px solid #ccc;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .East-1 h2 {
+    margin-top: 30px;
+    color: #ad9a6d;
+    font-size: 24px;
+  }
+  
+  .East-1 p {
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .East-container .East .East-1 .image1 img {
+    width: 100%;
+  }
+  
+  .East-container .tieude1 h1 {
+    font-size: 30px;
+    padding-right: 1000px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .tieude1 .ttl{
+    font-size: 20px;
+  }
+  
