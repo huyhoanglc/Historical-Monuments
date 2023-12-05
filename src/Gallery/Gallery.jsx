@@ -19,7 +19,7 @@ function Gallery() {
     
   return (
     <div className='Gallery'>       
-    <div id='Gallery' className='gallerywrapper '>
+    <div  className='gallerywrapper '>
         <div className="filteritem flex-container">
         <h2 className='tl'><b>Gallery</b></h2>
         <hr/>
