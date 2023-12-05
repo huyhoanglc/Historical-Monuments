@@ -41,15 +41,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Layouts from './Components/Layouts/Layouts';
-import { Helmet } from 'react-helmet';
+
 function App() {
   
 
   return (
     <div>
-    <Helmet>
-        <title>Historical Monuments</title>
-      </Helmet>
+    
     
     
     <BrowserRouter>
