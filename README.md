@@ -1,72 +1,89 @@
-# Getting Started with Create React App
+<a  name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<br  />
 
-In the project directory, you can run:
+<div  align="center">
+    
 
-### `npm start`
+<img  src="https://private-user-images.githubusercontent.com/143864003/287974717-aadbc52b-9ed2-48fb-9bcd-3bfedd219c64.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NjU2NTgsIm5iZiI6MTcwMTc2NTM1OCwicGF0aCI6Ii8xNDM4NjQwMDMvMjg3OTc0NzE3LWFhZGJjNTJiLTllZDItNDhmYi05YmNkLTNiZmVkZDIxOWM2NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIwNVQwODM1NThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kYTg4MjMxYjBhN2Q1MTQ3MTEyYzIyOTAwYmQxYTE0NmUwZTk0NzM5MTc2MTk5MDM4MzRhNGIxZWJjNzkyN2E3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ChuUa4T7pBBb-nRfMUFQsnHFD_-Cts1dykGZTPByPOg"  alt="Logo"  width="768px"  height="auto">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h3  align="center">HISTORICAL MONUMENTS</h3>
 
-### `npm test`
+Welcome to our website "Historical Monuments", this is stands as a testament to the rich tapestry of history woven through the ages. These iconic monuments, dating back to history, have witnessed centuries of human triumphs, struggles, and cultural evolution. Visit and Experience
+We invite you to step into the corridors of time and immerse yourself in the history that Historical Monuments encapsulates. Whether you are a history enthusiast, a cultural explorer, or simply someone seeking inspiration, Historical Monuments welcomes you to embark on a journey through the annals of time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br  />
+<a  href="https://github.com/huyhoanglc/eProject-Fpt-Aptech-Group2-Historical-Monument"><strong>Explore the source »</strong></a>
+<a  href="https://github.com/AliNguy3n/eProject-Fpt-Aptech-Group1-Durable-Furniture/tree/0bdf01110342da7cd513cae701f6f8eed61816cd/documents" target="_blank"><strong>Explore the documents »</strong></a>
 
-### `npm run build`
+<br  /><a  href="https://e-project-fpt-aptech-group1-durable-furniture.vercel.app/" target="_blank">View Demo</a> . <a  href="https://www.youtube.com/watch?v=pvpBg1zAV28" target="_blank">Video</a>
+<img  src="https://private-user-images.githubusercontent.com/143864003/287975678-e408a3f6-5332-486d-98cd-9cfec4035add.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE3NjU4MDYsIm5iZiI6MTcwMTc2NTUwNiwicGF0aCI6Ii8xNDM4NjQwMDMvMjg3OTc1Njc4LWU0MDhhM2Y2LTUzMzItNDg2ZC05OGNkLTljZmVjNDAzNWFkZC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIwNVQwODM4MjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jN2I4ZWFhNTFiNWJmZWFkNWQxMzk0NWMyMzAyZTc4M2ViYTRjZGQ4MTQyNjYzYjNlYzIwMjJmOTJjMmFlYWExJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qH3zNZOlR_B9soFZO5-pz4O-6bfAupuC5gLOonfm7ac"  alt=""  width="768px"  height="auto">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Below is the languages/libraries we used for this project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![HTML]&nbsp;![CSS3] &nbsp;![JS]&nbsp;![BOOSTRAP]&nbsp;![REACT]
 
-### `npm run eject`
+<div  align="left">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Features </br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<ol>
+<li>
+The Home Page should be created making use of Sections with a suitable
+logo, the header section can be added which will show different famous
+images of monuments.</br>
+</li>
+<li>
+The site must contain the links to navigate through any zone for the
+information. </br>
+</li>
+<li>
+Links of monuments can be categorized by zone wise like (East, North, West
+and South) apart from world wonders link can be added.</br>
+</li>
+<li>
+History behind all the monuments can be added along with the images.</br>
+</li>
+<li>
+Gallery section can be added for viewing different images.</br>
+</li>
+<li>
+Feedback must be allowed to enter by the viewer</br>
+</li>
+<li>
+Site map, Gallery, about us, Queries link, Contact us link must be added.</br>
+</li>
+<li>
+The “Contact Us” page should have the Address of the Company and the mail
+address which when clicked will invoke the local mail client from where they
+can send an email. Address of the Company should be displayed using
+GeoLocation API (eg. GoogleMaps).</br>
+<li>
+The complete historic reason and its description must be allowed to get
+download as pdf or doc file.</br>
+</li>
+<li>
+The advertise section of bus, flights can be included for reaching the places.</br>
+</ol>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Members of group
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Leader : Hoàng Gia Huy `Student1501057`
 
-## Learn More
+#### Members:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Trần Nhật Linh `Student1501060` </br>
+Nguyễn Anh Minh `Student1501053` </br>
+Nguyễn Anh Quân `Student1501059` </br>
+Phạm Minh Trí `Student1501200` </br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-hello whatup
+[HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[JS]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[BOOSTRAP]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[REACT]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
