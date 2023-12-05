@@ -4,7 +4,77 @@ import { useState } from "react";
 import './Contact.css'
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    address: "",
+    email: "",
+    feedback: "",
+  });
+  const [formErrors, setFormErrors] = useState({
+    name: "",
+    phone: "",
+    address: "",
+    email: "",
+    feedback: "",
+  });
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+  const validateForm = () => {
+    let valid = true;
+    const newErrors = {
+      name: "",
+      phone: "",
+      address: "",
+      email: "",
+      feedback: "",
+    };
+
+    if (formData.name.trim() === "") {
+      newErrors.name = "Name is required";
+      valid = false;
+    }
+    if (formData.phone.trim() === "") {
+      newErrors.phone = "Phone is required";
+      valid = false;
+    }
+    if (formData.address.trim() === "") {
+      newErrors.address = "Address is required";
+      valid = false;
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      newErrors.email = "Invalid email address";
+      valid = false;
+    }
+
+    if (formData.feedback.trim() === "") {
+      newErrors.feedback = "Feedback is required";
+      valid = false;
+    }
+
+    setFormErrors(newErrors);
+    return valid;
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (validateForm()) {
+      alert("Order has been placed");
+      window.location.reload();
+    } else {
+      console.log("Form validation failed");
+    }
+  };
+
   
+
+
 
   
 
@@ -66,24 +136,74 @@ function Contact() {
         </div>
         <div class="col-md-6">
           <div class="form_container">
-            <form action="">
-              <div>
-                <input type="text" class="form-control" placeholder="Your Name" />
-              </div>
-              <div>
-                <input type="text" class="form-control" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="email" class="form-control" placeholder="Your Email" />
-              </div>
+            <form onSubmit={handleSubmit} action="">
+            <div className="form-group">
+                    <b>Name</b>
+                    <input
+                      className="form-control"
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Name"
+                      value={formData.name}
+                      onChange={handleChange}
+                    />
+                    <span className="error">{formErrors.name}</span>
+                  </div>
+                  <div className="form-group">
+                    <b>Phone</b>
+                    <input
+                      className="form-control"
+                      type="text"
+                      id="phone"
+                      name="phone"
+                      placeholder="Number"
+                      value={formData.phone}
+                      onChange={handleChange}
+                    />
+                    <span className="error">{formErrors.phone}</span>
+                  </div>
+                  
+                  <div className="form-group">
+                    <b>Email:</b>
+                    <input
+                      className="form-control"
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="xxx@gmail.com"
+                      value={formData.email}
+                      onChange={handleChange}
+                    />
+                    <span className="error">{formErrors.email}</span>
+                  </div>
+                  <div className="form-group">
+                    <b> Feedback:</b>
+                    <input
+                      className="form-control"
+                      type="text"
+                      id="feedback"
+                      name="feedback"
+                      placeholder="Something here"
+                      
+                      value={formData.feedback}
+                      onChange={handleChange}
+                    />
+                    <span className="error">{formErrors.feedback}</span>
+                  </div>
+                  &nbsp;&nbsp;
+                  <button
+                    type="submit"
+                    className="btn btn-block btn-primary my-3 py-3"
+                  >
+                    SUBMIT
+                  </button>
               
-              <div>
-                <input type="date" class="form-control"/>
-              </div>
-             
+            
+        
 </form>
 {/* <!-- Modal --> */}
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+{/* <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -99,22 +219,14 @@ function Contact() {
       </div>
     </div>
   </div>
-</div>
+</div> */}
               
           </div>
         </div>
         <div class="col-md-12">
           <div class="form_container">
-              <form action="">
-              <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" placeholder="Feedback" required></textarea>
-            </div>
-              <div class="btn_box">
-              {/* <!-- Button trigger modal --> */}
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Send Feedback
-        </button>
-        </div>
+              <form onSubmit={handleSubmit} action="">
+              
                 </form>
           </div>
         </div>

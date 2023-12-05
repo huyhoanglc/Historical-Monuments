@@ -13,7 +13,7 @@
     width: 100%;
     border: none;
     height: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     padding-left: 25px;
     border: 1px solid #999;
     outline: none;
@@ -316,9 +316,4 @@
   text-align:right; 
 }
 /*#endregion Alert*/
-.form_container .form-group .form-control{
-  padding-bottom: 120px;
-}
-.form_container .btn_box{
- text-align: center;
-}
+
