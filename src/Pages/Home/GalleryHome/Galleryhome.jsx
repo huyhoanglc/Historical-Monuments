@@ -17,7 +17,7 @@ function Galleryhome() {
     }
   return (
     <div>
-      <div id=' Galleryhome' className='galleryhomewrapper '>
+      <div  className='galleryhomewrapper '>
         <div className="filteritem flex-container">
             <h2 className='tl'><b>Gallery</b></h2>
             <hr/>
