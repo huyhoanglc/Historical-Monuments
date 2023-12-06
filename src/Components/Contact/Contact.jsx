@@ -191,7 +191,7 @@ function Contact() {
                       id="feedback"
                       name="feedback"
                       placeholder="Something here"
-                      
+                      rows="5"
                       value={formData.feedback}
                       onChange={handleChange}>
                       
