@@ -21,7 +21,7 @@ function Kinkaku() {
        <div className="Castle">
         <div className="Castle1"> 
           <div className="tieude1">
-              <img className='hinh1' src="img/East/Kinkakuji_image3.jpg" alt='HimejiCastle' />
+              <img className='hinh1' src="img/East/Extra/kinkakuji_image3.jpg" alt='HimejiCastle' />
           </div>
           <div className="noidung1">
               <p className='vanban1'>
