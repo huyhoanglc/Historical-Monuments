@@ -126,18 +126,23 @@ function Contact() {
               </div>
             </div>
           </div>
+ <form onSubmit={handleSubmit} action="">
+
       <div class="row">
       <div class="col-md-6">
           <div id="Map" class="map_container ">
             <div id="googleMap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.584483898166!2d106.70939677495853!3d10.843076389309799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752d33d4a21d21%3A0x6efb856cd8d033af!2sVAN%20PHUC%20CITY!5e0!3m2!1svi!2s!4v1701610479595!5m2!1svi!2s" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.584483898166!2d106.70939677495853!3d10.843076389309799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752d33d4a21d21%3A0x6efb856cd8d033af!2sVAN%20PHUC%20CITY!5e0!3m2!1svi!2s!4v1701610479595!5m2!1svi!2s" width="700" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="form_container">
-            <form onSubmit={handleSubmit} action="">
-            <div className="form-group">
+        
+           
+            
+          
+          <div class="col-md-6">
+          
+            <div  className="form-group ten">
                     <b>Name</b>
                     <input
                       className="form-control"
@@ -150,7 +155,7 @@ function Contact() {
                     />
                     <span className="error">{formErrors.name}</span>
                   </div>
-                  <div className="form-group">
+                  <div  className="form-group so">
                     <b>Phone</b>
                     <input
                       className="form-control"
@@ -164,7 +169,7 @@ function Contact() {
                     <span className="error">{formErrors.phone}</span>
                   </div>
                   
-                  <div className="form-group">
+                  <div  className="form-group meo">
                     <b>Email:</b>
                     <input
                       className="form-control"
@@ -177,18 +182,20 @@ function Contact() {
                     />
                     <span className="error">{formErrors.email}</span>
                   </div>
-                  <div className="form-group">
+                  </div>
+                  
+                  <div id="fit" className="form-group fit mt-3">
                     <b> Feedback:</b>
-                    <input
-                      className="form-control"
+                    <textarea className="form-control"
                       type="text"
                       id="feedback"
                       name="feedback"
                       placeholder="Something here"
                       
                       value={formData.feedback}
-                      onChange={handleChange}
-                    />
+                      onChange={handleChange}>
+                      
+                      </textarea>
                     <span className="error">{formErrors.feedback}</span>
                   </div>
                   &nbsp;&nbsp;
@@ -199,7 +206,8 @@ function Contact() {
                     SUBMIT
                   </button>
               
-            
+                  </div>
+       
         
 </form>
 {/* <!-- Modal --> */}
@@ -221,16 +229,8 @@ function Contact() {
   </div>
 </div> */}
               
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="form_container">
-              <form onSubmit={handleSubmit} action="">
-              
-                </form>
-          </div>
-        </div>
-      </div>
+          
+        
       
     </div>
   </section>
